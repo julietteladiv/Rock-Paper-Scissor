@@ -1,0 +1,39 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(0, 0%, 83%);
+}
+h1 {
+  font-size: 72px;
+  color: hsl(0, 0%, 20%);
+}
+.choices {
+  margin-bottom: 50px;
+}
+.choices button {
+  font-size: 98px;
+  margin: 0 10px;
+  border-radius: 100px;
+  background-color: hsl(160, 100%, 55%);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.5ms ease;
+}
+.choices button:hover {
+  background-color: hsl(160, 100%, 75%);
+}
+#playerDisplay,
+#computerDisplay {
+  font-size: 36px;
+  color: hsl(0, 0%, 20%);
+  line-height: 1.5;
+}
+#resultsDisplay {
+  font-size: 72px;
+  color: hsl(160, 100%, 35%);
+  margin: 20px 0;
+}
